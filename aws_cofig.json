@@ -1,0 +1,26 @@
+{
+   "credential":{
+      "access_key":"******************MMP",
+      "secret_key":"****************************HxV"
+   },
+   "s3":{
+      "bucket":"s3bucket-landing-task",
+      "key":"csv/user.csv"
+   },
+   "inputpath":{
+      "s3_campaigns":"s3://s3bucket-landing-task/campaigns.csv",
+      "local_campaigns":"C:\\Users\\Abhishikth\\OneDrive\\Desktop\\Data Engineering\\ProjectBidnamic\\campaigns.csv",
+      "s3_adgroups":"s3://s3bucket-landing-task/adgroups.csv",
+      "local_adgroups":"C:\\Users\\Abhishikth\\OneDrive\\Desktop\\Data Engineering\\ProjectBidnamic\\adgroups.csv",
+      "s3_search_terms":"s3://s3bucket-landing-task/search_terms.csv",
+      "local_search_terms":"C:\\Users\\Abhishikth\\OneDrive\\Desktop\\Data Engineering\\ProjectBidnamic\\search_terms.csv"
+   },
+   "connection":{
+      "user":"postgres",
+      "password":"abhikabhi",
+      "host": "127.0.0.1",
+      "port": "5432",
+       "db": "bid_challenge",
+       "url" : "jdbc:postgresql://127.0.0.1:5432/bid_challenge"
+   }
+}

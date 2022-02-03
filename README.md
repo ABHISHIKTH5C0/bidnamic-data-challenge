@@ -2,14 +2,14 @@
 Bidnamic's Data Engineering Coding Challenge 
 <h3>For this task i designed following flow chart of ETL pipeline as per task requirment</h3>
 
-<img>ETL_flow_chart.jpg</img>
+<img src ='https://raw.githubusercontent.com/ABHISHIKTH5C0/bidnamic-data-challenge/master/ETL_flow_chart.jpg'></img>
 <h5>**This flow is desined by considering good practices</h5>
 <ul>
   <li>Ingested data from raw url files
   <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/campaigns.csv">campaings</a>,
     <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/adgroups.csv"> adgroups</a>,
      <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/search_terms.csv"> search_terms</a>
-     into AWS S3 which considered as data lake with folowing <a href="">Python code</a>.
+     into AWS S3 which considered as data lake with folowing <a href="https://github.com/ABHISHIKTH5C0/bidnamic-data-challenge/blob/master/ingest.py">Python code</a>.
   </li>
   <li>
   Extracted the ingested data objects AWS S3 bucket using <a href='https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html'>boto3</a>
